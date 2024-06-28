@@ -249,3 +249,56 @@ footer .line-footer p a{
         width: 100%;
     }
 }
+  /* Estilos para a página de projetos */
+section.projetos {
+    padding: 40px 4%;
+}
+
+section.projetos .titulo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#repos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.repo-card {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(27, 31, 35, 0.12);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.repo-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 6px rgba(27, 31, 35, 0.15);
+}
+
+.repo-card h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.repo-card h3 a {
+    text-decoration: none;
+    color: #519aec;
+}
+
+.repo-card p {
+    margin: 0 0 10px;
+    color: #586069;
+}
+
+.repo-card span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #586069;
+    font-size: 14px;
+}
